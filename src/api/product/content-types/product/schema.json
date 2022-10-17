@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "product"
+    "displayName": "product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,12 +25,12 @@
     "price": {
       "type": "decimal",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "qtd": {
       "type": "integer",
       "required": true,
-      "unique": true
+      "unique": false
     }
   }
 }
